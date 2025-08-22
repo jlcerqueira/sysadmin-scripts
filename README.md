@@ -16,8 +16,17 @@ O objetivo é manter scripts úteis e prontos para uso, evitando a necessidade d
 - **teste.txt**  
   Teste
 
-## 💡 Uso
-Basta clonar o repositório e executar o script desejado no ambiente apropriado.
+🔑 Script de Verificação de MachineKeys em web.config
+
+Este script em PowerShell tem como objetivo identificar machineKeys comprometidas (armazenadas em um arquivo .txt) dentro de arquivos web.config em um diretório de hospedagem.
+📌 Funcionamento
+Lê um arquivo de referência (machinekeys.txt) contendo as chaves suspeitas/vazadas.
+Percorre recursivamente todas as pastas do diretório definido (ex.: E:\home).
+Verifica se alguma das chaves listadas está presente nos arquivos web.config.
+Agrupa os resultados por diretório principal, exibindo:
+A chave encontrada
+O caminho completo do arquivo onde foi localizada
 
 ```bash
 git clone https://github.com/jlcerqueira/sysadmin-scripts.git
+
