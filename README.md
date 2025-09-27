@@ -14,8 +14,7 @@ O objetivo é manter scripts úteis e prontos para uso, evitando a necessidade d
   - `Valida status 200 em uma url.ps1` — Testa se uma URL retorna status HTTP 200.
 
 - **Notes/**  
-  
- Esta pasta contém anotações complementares e explicações detalhadas sobre os scripts do projeto. Em vez de sobrecarregar o README, centralizamos aqui os comentários técnicos, exemplos de uso, observações sobre parâmetros e eventuais ajustes realizados. Ideal para quem deseja entender o funcionamento dos scripts com mais profundidade.
+  Esta pasta contém anotações complementares e explicações detalhadas sobre os scripts do projeto. Em vez de sobrecarregar o README, centralizamos aqui os comentários técnicos, exemplos de uso, observações sobre     parâmetros e eventuais ajustes realizados. Ideal para quem deseja entender o funcionamento dos scripts com mais profundidade.
 
 ```bash
 git clone https://github.com/jlcerqueira/sysadmin-scripts.git
